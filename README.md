@@ -18,7 +18,14 @@ sudo pip install fabric
 
 ## Usage:
 
-Clone this repo, then `cd` into the `gdi` directory. Now you can list out the fabric tasks available to you using `fab -l`.
+Clone this repo:
+
+```
+git clone git@github.com:subyraman/fabric-demo.git
+cd fabric-demo
+```
+
+Now you can list out the fabric tasks available to you using `fab -l`.
 
 Try running commands! Like `fab speak`, `fab speak_custom:"hello everyone"`.
 
